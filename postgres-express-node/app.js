@@ -3,6 +3,8 @@ const express = require("express");
 const { Logger } = require("./loaders/logger");
 const loaders = require("./loaders");
 
+// test
+
 async function startServer() {
   const app = express();
 
