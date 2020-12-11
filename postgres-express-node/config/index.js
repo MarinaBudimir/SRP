@@ -27,6 +27,10 @@ module.exports = {
     prefix: "/api",
   },
 
+  bcrypt: {
+    SALT_ROUNDS: process.env.SALT_ROUNDS || 12,
+  },
+
   jwt: {
       secret: process.env.JWT_SECRET,
       expiresIn: process.env.JWT_DURATION || "1h",
