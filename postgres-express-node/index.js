@@ -7,7 +7,7 @@ const {
 
 // * =============================
 // *  Users
-// * -----------------------------
+// * --------------------------------
 const admin = { id: 1, role: "admin" };
 const doctor = { id: 2, role: "doctor" };
 const user_1 = { id: 3, role: "user" };
